@@ -9,6 +9,13 @@
 - python: m2 macbook  
 Graph Data Science libraryを使うために、AuraDSまたはDesktop版を使う必要あり。今回はDesktop版を使う。データフレームの加工はpython環境で行い、そのデータをロードする形とする。
 
+### 環境構築 - python on windows
+- python, gitを公式からインストール。python=3.11系
+- 仮想環境：venv（**以下、本レポジトリをクローン後にそのフォルダ内で実施**）
+    - 立ち上げ：`python -m venv neo4jpython`
+    - アクティベート：`./neo4jpython/Scripts/activate`
+    - ディアクティベート：`deactivate`
+
 ### 使用環境のイメージ図
 (後で更新予定)
 
