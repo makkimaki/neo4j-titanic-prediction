@@ -5,7 +5,8 @@
 - グラフ特有のリレーションを貼ることによる、予測精度への影響を分析
 
 ## 使用環境
-- グラフDB：Neo4j Desktop
+- グラフDB：Neo4j Desktop or Neo4j AuraDS
+    - 注意：AuraDBの無料版はGDSライブラリをサポートしていない
 - python: m2 macbook  
 Graph Data Science libraryを使うために、AuraDSまたはDesktop版を使う必要あり。今回はDesktop版を使う。データフレームの加工はpython環境で行い、そのデータをロードする形とする。
 
