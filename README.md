@@ -17,7 +17,8 @@ Graph Data Science libraryを使うために、AuraDSまたはDesktop版を使�
     - ディアクティベート：`deactivate`
 
 ### 使用環境のイメージ図
-(後で更新予定)
+![image](https://github.com/user-attachments/assets/e0296479-db89-42db-b5c5-3b06c65bbb26)
+
 
 
 ## 実験１：リレーションを特に作らず実施
