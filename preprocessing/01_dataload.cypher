@@ -1,2 +1,0 @@
-LOAD CSV WITH HEADERS 
-FROM "" AS row
