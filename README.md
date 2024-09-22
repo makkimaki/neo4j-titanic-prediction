@@ -5,12 +5,21 @@
 - グラフ特有のリレーションを貼ることによる、予測精度への影響を分析
 
 ## 使用環境
-- グラフDB：Neo4j Desktop
+- グラフDB：Neo4j Desktop or Neo4j AuraDS
+    - 注意：AuraDBの無料版はGDSライブラリをサポートしていない
 - python: m2 macbook  
 Graph Data Science libraryを使うために、AuraDSまたはDesktop版を使う必要あり。今回はDesktop版を使う。データフレームの加工はpython環境で行い、そのデータをロードする形とする。
 
+### 環境構築 - python on windows
+- python, gitを公式からインストール。python=3.11系
+- 仮想環境：venv（**以下、本レポジトリをクローン後にそのフォルダ内で実施**）
+    - 立ち上げ：`python -m venv neo4jpython`
+    - アクティベート：`./neo4jpython/Scripts/activate`
+    - ディアクティベート：`deactivate`
+
 ### 使用環境のイメージ図
-(後で更新予定)
+![image](https://github.com/user-attachments/assets/e0296479-db89-42db-b5c5-3b06c65bbb26)
+
 
 
 ## 実験１：リレーションを特に作らず実施
